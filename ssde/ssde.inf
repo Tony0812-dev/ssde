@@ -4,8 +4,8 @@
 
 [Version]
 Signature="$WINDOWS NT$"
-Class=Kemono ; TODO: edit Class
-ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
+Class=System ; TODO: edit Class
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: edit ClassGuid
 Provider=%ManufacturerName%
 CatalogFile=ssde.cat
 DriverVer= ; TODO: set DriverVer in stampinf property pages
@@ -18,9 +18,9 @@ ssde_Device_CoInstaller_CopyFiles = 11
 ; ================= Class section =====================
 
 [ClassInstall32]
-Addreg=KemonoClassReg
+Addreg=SystemClassReg
 
-[KemonoClassReg]
+[SystemClassReg]
 HKR,,,0,%ClassName%
 HKR,,Icon,,-5
 
@@ -81,7 +81,7 @@ KmdfLibraryVersion = $KMDFVERSION$
 [Strings]
 SPSVCINST_ASSOCSERVICE= 0x00000002
 ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
-ClassName="Samples" ; TODO: edit ClassName
+ClassName="System" ; TODO: edit ClassName
 DiskName = "ssde Installation Disk"
 ssde.DeviceDesc = "ssde Device"
 ssde.SVCDESC = "ssde Service"
