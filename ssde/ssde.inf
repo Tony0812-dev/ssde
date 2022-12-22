@@ -16,14 +16,6 @@ DefaultDestDir = 12
 ssde_Device_CoInstaller_CopyFiles = 11
 
 ; ================= Class section =====================
-
-[ClassInstall32]
-Addreg=SystemClassReg
-
-[SystemClassReg]
-HKR,,,0,%ClassName%
-HKR,,Icon,,-5
-
 [SourceDisksNames]
 1 = %DiskName%,,,""
 
