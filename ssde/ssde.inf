@@ -4,7 +4,7 @@
 
 [Version]
 Signature="$WINDOWS NT$"
-Class=Sample ; TODO: edit Class
+Class=Kemono ; TODO: edit Class
 ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
 Provider=%ManufacturerName%
 CatalogFile=ssde.cat
@@ -18,9 +18,9 @@ ssde_Device_CoInstaller_CopyFiles = 11
 ; ================= Class section =====================
 
 [ClassInstall32]
-Addreg=SampleClassReg
+Addreg=KemonoClassReg
 
-[SampleClassReg]
+[KemonoClassReg]
 HKR,,,0,%ClassName%
 HKR,,Icon,,-5
 
